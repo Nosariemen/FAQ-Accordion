@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url("image/background-pattern-desktop.svg") no-repeat;
+    background-size: cover;
+    height: 290px;
+    background-position: center;
+    background-color: hsl(275, 100%, 97%);
+    display: grid;
+    place-items: center;
+}
+
+.container{
+    background-color: white;
+    width: 520px;
+    max-height: 600px;
+    font-family: Arial;
+    padding: 20px 40px;
+    border-radius: 15px;
+    margin-top: 500px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    overflow-y: scroll;
+}
+
+.sub-container{
+    width: 100%;
+    position: relative;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header img{
+    width: 33px;
+}
+
+.header p{
+    font-weight: bold;
+    font-size: 45px;
+    color: hsl(292, 42%, 14%);
+}
+
+.question-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.question h3{
+    color: hsl(292, 42%, 14%);
+}
+
+#first-answer{
+    color: hsl(292, 16%, 49%);
+    width: 470px;
+    line-height: 27px; 
+}
+
+#second-answer{
+    color: hsl(292, 16%, 49%);
+    width: 470px;
+    line-height: 27px; 
+}
+
+#third-answer{
+    color: hsl(292, 16%, 49%);
+    width: 470px;
+    line-height: 27px; 
+}
+
+#fourth-answer{
+    color: hsl(292, 16%, 49%);
+    width: 470px;
+    line-height: 27px; 
+}
+
+.hidden{
+    display: none;
+}
+
+hr{
+    border: 0;
+}
+
+button{
+    border: none;
+    outline: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    position: relative;
+    background-color: white;
+}
+
+button img{
+    position: absolute;
+    top: -0.5px;
+    left: -0.4px;
+}
