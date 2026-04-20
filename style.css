@@ -57,25 +57,25 @@ body{
 #first-answer{
     color: hsl(293, 16%, 49%);
     line-height: 27px;
-    font-size: 15px; 
+    font-size: 18px; 
 }
 
 #second-answer{
     color: hsl(292, 16%, 49%);
     line-height: 27px;
-    font-size: 15px; 
+    font-size: 18px; 
 }
 
 #third-answer{
     color: hsl(292, 16%, 49%);
     line-height: 27px;
-    font-size: 15px; 
+    font-size: 18px; 
 }
 
 #fourth-answer{
     color: hsl(292, 16%, 49%);
     line-height: 27px;
-    font-size: 15px; 
+    font-size: 18px; 
 }
 
 .hidden{
