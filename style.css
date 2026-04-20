@@ -7,14 +7,13 @@ body{
     height: 290px;
     background-position: center;
     background-color: hsl(275, 100%, 97%);
-    display: grid;
-    place-items: center;
     overflow-y: scroll;
 }
 
 .container{
     background-color: white;
-    width: 520px;
+    margin: 0 auto;
+    width: 60%;
     height: fit-content;
     font-family: Arial;
     padding: 20px 40px;
